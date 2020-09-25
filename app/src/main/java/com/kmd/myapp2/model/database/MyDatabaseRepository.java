@@ -14,7 +14,6 @@ public class MyDatabaseRepository {
 
     public MyDatabaseRepository(Context context){
         this.context = context;
-        //appDatabase = Room.databaseBuilder(context, AppDatabase.class, DatabaseClient.DATABASE_NAME).build();
         myDatabase = Room.databaseBuilder(context, MyDatabase.class, DATABASE_NAME).build();
     }
 
