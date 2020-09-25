@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstString" />
+
+        <EditText
+            android:id="@+id/txtfirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text=""
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secondString"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txtsecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/txtresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secondString"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnsecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_second"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnbrowse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browse"
+            android:layout_marginTop="30dp" />
+        <Button
+            android:id="@+id/btndial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dial"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goto Recycler View"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnAsync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goto Async"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnSharePrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Preferences"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnNetwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network Info"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnHTTPConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HTTP Client"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
